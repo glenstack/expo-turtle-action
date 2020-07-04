@@ -1,0 +1,9 @@
+name: "Build standalone Expo apps with GitHub Actions"
+author: "Greg Brimble"
+description: "Install and run the Turtle CLI as a GitHub Action to build standable Expo apps"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "smartphone"
+  color: "white"
